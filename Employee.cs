@@ -18,7 +18,7 @@ namespace Assignment03
         List<Employee> list = new List<Employee>() { new Employee() { Id=id,Name=name,Dept=dept, Salary=salary,Doj=doj}, };
             foreach (Employee emp in list )
             {
-                Console.WriteLine("{0,8} {1,8} {2,8} {3,8} {4,8}",emp.Id,emp.Name,emp.Dept,emp.Salary,emp.Doj);
+                Console.WriteLine("{0,-8} {1,-8} {2,-8} {3,-8} {4,-8}",emp.Id,emp.Name,emp.Dept,emp.Salary,emp.Doj);
             }
         }
     }
